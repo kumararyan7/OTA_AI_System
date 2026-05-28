@@ -5,7 +5,7 @@ from app.routes import device,update,logs
 # from app.routes.device import router
 from app.database import engine, Base
 from app import models
-
+from app.routes import ai
 app = FastAPI()
 
 Base.metadata.create_all(bind=engine)
